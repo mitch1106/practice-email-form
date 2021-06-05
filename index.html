@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Practice Email Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" size="30" required />
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+
+                <input id="email" type="email" size="30" required />
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="form-message">Your message:</label>
+                </div>
+                <div class="col-75"></div>
+                <textarea id="form-message" name="message" autofocus="on" maxlength="200"
+                    placeholder="Additional information" style="height:200px;"></textarea>
+            </div>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </main>
+</body>

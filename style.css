@@ -1,0 +1,38 @@
+
+body {
+    padding: 10px;
+  }
+  
+  input {
+    margin: 5px;
+    width: 50%
+  }
+  
+  textarea {
+      margin: 10px;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float:left;
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
